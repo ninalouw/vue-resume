@@ -12,23 +12,34 @@
         <canvas></canvas>
       </div>
     </div>
+    <app-about></app-about>
   </div>
 </template>
 
 <script>
+import Data from '../data/data.json';
+import About from './About.vue';
+
 export default {
   name: 'Home',
   data() {
     return {
-      title: 'Nina Mae Louw',
-      intro: 'I am a full stack developer and designer. I am passionate about creating intuitive user experiences and have the skills to build them: from user research, prototyping,and usability testing to building and deploying full stack applications.',
+      title: Data.Home.title,
+      intro: Data.Home.intro,
     };
+  },
+  components: {
+    appAbout: About,
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.container {
+  margin-top:60px;
+  margin-bottom:60px;
+}
 h1 {
 font-weight: bold;
 font-family: 'Playfair Display', serif;
