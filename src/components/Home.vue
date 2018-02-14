@@ -13,12 +13,14 @@
       </div>
     </div>
     <app-about></app-about>
+    <app-skills></app-skills>
   </div>
 </template>
 
 <script>
 import Data from '../data/data.json';
-import About from './About.vue';
+import About from './About';
+import Skills from './Skills';
 
 export default {
   name: 'Home',
@@ -30,41 +32,36 @@ export default {
   },
   components: {
     appAbout: About,
+    appSkills: Skills,
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.container {
-  margin-top:60px;
-  margin-bottom:60px;
-}
-h1 {
-font-weight: bold;
-font-family: 'Playfair Display', serif;
-font-size: 5rem;
-}
-p {
-  max-width: 450px;
-  font-size: 2rem;
-  font-family: 'Anonymous Pro', monospace;
-}
-canvas {
-  background-color: #FFC8D9;
-  width: 480px;
-  height: 430px;
-}
-.btn-outline-primary {
-  border: solid 1px #FFC8D9;
-  padding: 8px 16px 8px 16px;
-  margin-right:5px;
-  margin-top:10px;
-  border-radius: 0%;
-}
-button .btn-outline-primary :hover{
-  cursor: pointer;
-  background-color: #FFC8D9;
-  color: #fff;
-}
+<style lang="sass" scoped>
+h1
+  font-weight: bold
+  font-family: 'Playfair Display', serif
+  font-size: 5rem
+
+p
+  max-width: 450px
+  font-size: 2rem
+  font-family: 'Anonymous Pro', monospace
+
+canvas
+  background-color: #FFC8D9
+  width: 480px
+  height: 430px
+
+.btn-outline-primary
+  border: solid 1px #FFC8D9
+  padding: 8px 16px 8px 16px
+  margin-right: 5px
+  margin-top: 10px
+  border-radius: 0%
+  &:hover
+    cursor: pointer
+    background-color: #FFC8D9
+    color: #fff
 </style>

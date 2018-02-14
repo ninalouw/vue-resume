@@ -11,5 +11,17 @@
    "para1": "I have a Bachelor’s degree in English Literature, Philosophy and Art History, and a Masters degreee in English Literature from Oxford University. I have highly-developed language and research skills and am a specialist in analyzing large amounts of qualitative data. ",
    "para2": "My coding journey is a mixture of self-teaching online, Udacity’s Front-End Nanodegree, Codecore Web Developer Bootcamp and Web Design and Development at Vanarts. I now have experience with Ruby, Rails, Javascript, jQuery, HTML & CSS, relational databases and testing, and building full stack web apps.I have honed my full stack Javascript skills by learning React, Redux, Vue.js and Express.js. I have studied UX design and interface design principles, and have experience designing interactive prototypes and using the Adobe CC suite, Sketch and Invision.",
   "para3": "I currently work as a full stack Ruby and Javascript developer - taking on responsibilities from upgrading our SASS to Bootstrap 4, improving our sign up flow and use of routing APIs, and testing with Selenium and Capybara - to redesigning internal UI interfaces."
- }
+ },
+  "Skills": {
+    "title": "Skills & Approach",
+    "subTitle1": "Research & Strategy",
+    "subTitle2": "Design",
+    "subTitle3": "Front End",
+    "subTitle4": "Back End",
+    "para1": "I have experience doing graduate-level research and am passionate about user research and user-centred design. I am a convincing and detail-oriented content creator -  I have worked as a copywriter and a freelance photojournalist.",
+    "para2": "I have technical experience with Adobe Photoshop, Illustrator, InDesign, After Effects and Premier, creating mockups with Sketch and creating prototypes with Invision and Adobe XD. I am passionate about user-centred design and enjoy user research, usability testing and designing apps with the user in mind.",
+    "para3": "I have experience with HTML5, CSS3, SASS, Javascript, jQuery, AJAX, React, Redux, Angular.js and Vue.js, testing with Jasmine, Mocha and Jest, and compiling builds with Grunt, Gulp and Webpack. I am interested in using front-end frameworks to create a more intuitive and reassuring experience for the user. I have recent experience redesigning sign up flows to create a simpler, frictionless sign up process.",
+    "para4": "I have experience with Ruby, PHP, Rails, Laravel, Express.js, Node.js, Postgres, mySQL, MongoDB, Heroku, AWS, Digital Ocean, Redis and testing with Rspec, Cabybara, Selenium and Sauce labs. I am currently tackling refactoring fat models in a Rails codebase and hope to grow towards writing service-oriented code that tries to simplify the behaviour of features."
+  }
+
 }
