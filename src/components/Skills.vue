@@ -62,6 +62,13 @@
         <p>{{ para4 }}</p>
       </div>
     </div>
+    <div class="row buttons">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <button href="https://github.com/ninalouw" class="btn btn-primary">View Github</button>
+        <button class="btn btn-secondary">Download Resume</button>
+        <button href="mailto:ninalouw@mac.com" class="btn btn-tertiary">Contact Me</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -98,11 +105,37 @@ h1, h2
   flex-direction: column
   align-content: center
   i
-    font-size: 6rem
-    margin: 10px 10px 20px 0px
-    padding: 10px
+    font-size: 4rem
+    // margin: 5px 5px 10px 0px
+    padding-top: 2px
+    color: #F7E866
+    &:before
+      margin: 10px
   .svgs
     margin-top: 30px
     margin-bottom: 30px
+
+.buttons
+  margin-top: 30px
+  margin-bottom: 30px
+  .btn
+    padding: 10px 20px 10px 20px
+    margin-right: 5px
+    margin-top: 10px
+    border-radius: 0%
+    &:hover
+      cursor: pointer
+  .btn-primary
+    background-color: #FFC8D9
+    border: 1px solid #FDB0D5
+  .btn-secondary
+    background-color: #FFFAD0
+    border: 1px solid #FDF296
+    color: black
+    margin-left: 95px
+  .btn-tertiary
+    background-color: #7EC1CC
+    border: 1px solid #65CFE1
+    margin-left: 95px
 
 </style>

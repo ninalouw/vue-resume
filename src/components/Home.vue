@@ -1,19 +1,33 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hero-text">
-        <h1>{{ title }}</h1>
-        <p> {{ intro }}</p>
-        <button class="btn btn-outline-primary">Email</button>
-        <button class="btn btn-outline-primary">Github</button>
-        <button class="btn btn-outline-primary">LinkedIn</button>
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hero-text">
+          <h1>{{ title }}</h1>
+          <p> {{ intro }}</p>
+            <div class="contact">
+            <span>
+              <i class="fas fa-2x fa-envelope"></i>
+              <a href="mailto:ninalouw@mac.com">Email</a>
+            </span>
+            <span>
+              <i class="fab fa-2x fa-github"></i>
+              <a href="https://github.com/ninalouw">Github</a>
+            </span>
+            <span>
+              <i class="fab fa-2x fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/ninamaelouw/">LinkedIn</a>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hero-video">
+          <canvas></canvas>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hero-video">
-        <canvas></canvas>
-      </div>
+      <app-about></app-about>
+      <app-skills></app-skills>
     </div>
-    <app-about></app-about>
-    <app-skills></app-skills>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -21,6 +35,7 @@
 import Data from '../data/data.json';
 import About from './About';
 import Skills from './Skills';
+import Footer from './Footer';
 
 export default {
   name: 'Home',
@@ -33,6 +48,7 @@ export default {
   components: {
     appAbout: About,
     appSkills: Skills,
+    appFooter: Footer,
   },
 };
 </script>
@@ -53,15 +69,20 @@ canvas
   background-color: #FFC8D9
   width: 480px
   height: 430px
-
-.btn-outline-primary
-  border: solid 1px #FFC8D9
-  padding: 8px 16px 8px 16px
-  margin-right: 5px
-  margin-top: 10px
-  border-radius: 0%
-  &:hover
-    cursor: pointer
-    background-color: #FFC8D9
-    color: #fff
+.contact
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-top: 15px
+  span
+    a
+      color: black
+      &:hover
+        cursor: pointer
+        color: #FFC8D9
+    i
+      color: #FFC8D9
+      &:hover
+        cursor: pointer
+        color: #FDB0D5
 </style>
