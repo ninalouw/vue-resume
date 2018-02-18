@@ -26,6 +26,7 @@
       </div>
       <app-about></app-about>
       <app-skills></app-skills>
+      <app-work></app-work>
     </div>
     <app-footer></app-footer>
   </div>
@@ -35,6 +36,7 @@
 import Data from '../data/data.json';
 import About from './About';
 import Skills from './Skills';
+import Work from './Work';
 import Footer from './Footer';
 
 export default {
@@ -48,6 +50,7 @@ export default {
   components: {
     appAbout: About,
     appSkills: Skills,
+    appWork: Work,
     appFooter: Footer,
   },
 };
