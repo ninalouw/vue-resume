@@ -6,7 +6,7 @@
             class="block col-lg-6 col-md-6 col-sm-6 col-xs-12"
             :key="item.id"
             >
-        <img class="img-responsive" :src="item.img">
+        <img class="img-responsive" :src="getImgUrl(item.img)">
         <h2>{{ item.title }}</h2>
         <p>{{ item.para }}</p>
       </div>
@@ -24,6 +24,12 @@ export default {
       data: Data.About,
       title: 'My Journey',
     };
+  },
+  methods: {
+    getImgUrl(name) {
+      const images = require.context('../assets/', false, /\.svg$/);
+      return images('./' + name + '.svg');
+    },
   },
 };
 </script>
