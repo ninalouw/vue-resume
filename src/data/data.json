@@ -33,7 +33,7 @@
     "section2": {
       "id":"2",
       "title": "Design",
-      "icons": "devicon-photoshop-plain",
+      "icons": "[ devicon-photoshop-plain , devicon-illustrator-plain ]",
       "para": "I have technical experience with Adobe Photoshop, Illustrator, InDesign, After Effects and Premier, creating mockups with Sketch and creating prototypes with Invision and Adobe XD. I am passionate about user-centred design and enjoy user research, usability testing and designing apps with the user in mind."
     },
     "section3": {
@@ -94,18 +94,22 @@
 
     }
   },
-  "icons": {
+  "Icons": {
     "section1":{
-      "icons": "['devicon-trello-plain']"
+      "id": "1",
+      "names": "['devicon-trello-plain']"
     },
     "section2": {
-      "icons": "['devicon-photoshop-plain', 'devicon-illustrator-plain']"
+      "id": "2",
+      "names": "['devicon-photoshop-plain', 'devicon-illustrator-plain']"
     },
     "section3": {
-      "icons": "['devicon-html5-plain-wordmark', 'devicon-css3-plain-wordmark', 'devicon-sass-original', 'devicon-bootstrap-plain-wordmark', 'devicon-javascript-plain', 'devicon-jquery-plain-wordmark','devicon-angularjs-plain','devicon-react-original-wordmark','devicon-vuejs-plain-wordmark', 'devicon-webpack-plain', 'devicon-babel-plain', 'devicon-mocha-plain', 'devicon-jasmine-plain-wordmark', 'devicon-grunt-line-wordmark', 'devicon-gulp-plain']"
+      "id": "3",
+      "names": "['devicon-html5-plain-wordmark', 'devicon-css3-plain-wordmark', 'devicon-sass-original', 'devicon-bootstrap-plain-wordmark', 'devicon-javascript-plain', 'devicon-jquery-plain-wordmark','devicon-angularjs-plain','devicon-react-original-wordmark','devicon-vuejs-plain-wordmark', 'devicon-webpack-plain', 'devicon-babel-plain', 'devicon-mocha-plain', 'devicon-jasmine-plain-wordmark', 'devicon-grunt-line-wordmark', 'devicon-gulp-plain']"
     },
     "section4": {
-      "icons": "['devicon-ruby-plain', 'devicon-rails-plain-wordmark', 'devicon-php-plain', 'devicon-laravel-plain', 'devicon-nodejs-plain', 'devicon-express-plain-wordmark','devicon-heroku-plain','devicon-amazonwebservices-plain-wordmark','devicon-mysql-plain-wordmark', 'devicon-postgresql-plain', 'devicon-mongodb-plain-wordmark', 'devicon-cucumber-plain', 'devicon-redis-plain-wordmark', 'devicon-git-plain']"
+      "id": "4",
+      "names": "['devicon-ruby-plain', 'devicon-rails-plain-wordmark', 'devicon-php-plain', 'devicon-laravel-plain', 'devicon-nodejs-plain', 'devicon-express-plain-wordmark','devicon-heroku-plain','devicon-amazonwebservices-plain-wordmark','devicon-mysql-plain-wordmark', 'devicon-postgresql-plain', 'devicon-mongodb-plain-wordmark', 'devicon-cucumber-plain', 'devicon-redis-plain-wordmark', 'devicon-git-plain']"
     }
   }
 }
