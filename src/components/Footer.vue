@@ -2,16 +2,16 @@
   <footer class="footer">
     <span>Get in contact with me at </span>
     <span>
-      <i class="fas fa-2x fa-envelope"></i>
+      <i class="fas fa-1x fa-envelope"></i>
       <a href="mailto:ninalouw@mac.com">ninalouw@mac.com</a>
     </span>
     <span>
-      <i class="fab fa-2x fa-linkedin"></i>
+      <i class="fab fa-1x fa-linkedin"></i>
       <a href="https://www.linkedin.com/in/ninamaelouw/">LinkedIn</a>
     </span>
     <span>DM me on Twitter</span>
     <span>
-      <i class="fab fa-2x fa-twitter"></i>
+      <i class="fab fa-1x fa-twitter"></i>
       <a href="https://twitter.com/ninamaelouw">@ninamaelouw</a>
     </span>
   </footer>
@@ -27,7 +27,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
 p, a
-  font-size: 1.5rem
+  font-size: 1rem
 .footer
   display: flex
   justify-content: space-evenly
@@ -44,5 +44,8 @@ p, a
     i
       &:hover
         cursor: pointer
-        color: #F8B91C
+        color: #F8B91
+@media (min-width: 768px)
+  flex-direction: column
+  align-items: left;
 </style>

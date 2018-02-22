@@ -53,6 +53,8 @@
     "proj1": {
       "id":"1",
       "title": "Pooch Pals",
+      "img": "find-my-pet",
+      "width": "40rem",
       "para": "My own business endeavour which allows Vancouverites to borrow local dogs for walks. I have designed and built the MVP using Rails and React, and am currently running user testing studies and marketing my product.",
       "url":"https://pooch-pals.herokuapp.com",
       "source_code":"https://github.com/ninalouw/rails-pals"
@@ -60,6 +62,8 @@
     "proj2": {
       "id":"2",
       "title": "Mealkit Prototype",
+      "img": "full-circle",
+      "width": "20rem",
       "para": "An interactive prototype for a meal kit delivery company that focuses on simplifying weekly recipe choices and providing the user with delivery updates. The prototype displays the first two primary tasks decided on after doing user research, creating task models, and running usability tests. Created with Sketch and Invision.",
       "url":"https://invis.io/CBEEWZC47",
       "source_code":"https://invis.io/CBEEWZC47"
@@ -67,6 +71,8 @@
     "proj3": {
       "id": "3",
       "title": "HellKitty Studios",
+      "img": "food-finder",
+      "width": "30rem",
       "para": "Web application created for client comic artists Pia Guerra and Ian Boothby. The web app allows them to update content on their landing page, as well as updating content in their respective galleries and profiles. Built using Rails, AJAX, jQuery, Postgresql and Bootstrap.",
       "url":"https://hellkitty-studios.herokuapp.com",
       "source_code":"https://github.com/ninalouw/hellkitty"
@@ -74,6 +80,8 @@
     "proj4": {
       "id": "4",
       "title": "Vote Up",
+      "img": "full-circle",
+      "width": "30rem",
       "para" : "Group project at Vancouver Institute of Media Arts - we were tasked to build a website to increase voter awareness amongst the Candian youth. The web app includes map-based search of country-wide MPs, and a voting on policies poitical leanings test. Built with SASS, Jade, Javascript, jQuery and Gulp.",
       "url": "http://vote-up.ohhhh.me",
       "source_code":"https://github.com/tom-aglow/vanarts_vote_up"
@@ -81,6 +89,8 @@
     "proj5": {
       "id": "5",
       "title": "Full Circle Goals",
+      "img": "full-circle",
+      "width": "25rem",
       "para":"A goal-tracking app that allows you to set yourself a goal routine. It includes a visualization of your daily goals and a consecutive days completed progress bar. The app will allow a user to visualize and effectively keep to the goals that he or she has set. The app uses a Rails API, React.js, AJAX, JavaScript, HTML, CSS, Materialize-UI and PostgreSQL.",
       "url":"https://full-circle-app.herokuapp.com/",
       "source_code":"https://github.com/ninalouw/FullCircleApp"
@@ -88,6 +98,8 @@
     "proj6": {
       "id": "6",
       "title": "Food Finder",
+      "img": "food-finder",
+      "width": "35rem",
       "para":"Food Explorer is a SAP created for the Udacity FEND course that uses Knockout.js and a MVVM pattern for the app architecture and a responsive UI. It uses Google Maps API and Foursquare API for the map functionality and to allow users to search for keywords and receive helpful food-related data about places in Vancouver.",
       "url":"http://food-explorer.surge.sh/",
       "source_code":"https://github.com/ninalouw/NeighborhoodMap"

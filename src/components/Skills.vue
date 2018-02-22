@@ -5,7 +5,7 @@
     <div class="row block-section">
       <div v-for="item in data"
            :key="item.id"
-           class="block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+           class="block col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h2>{{ item.title }}</h2>
         <div class="svgs">
           <i :class="item.icons"></i>
@@ -13,8 +13,8 @@
         <p>{{ item.para }}</p>
       </div>
     </div>
-    <div class="row buttons">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buttons">
         <button href="https://github.com/ninalouw" class="btn btn-primary">View Github</button>
         <button class="btn btn-secondary">Download Resume</button>
         <button href="mailto:ninalouw@mac.com" class="btn btn-tertiary">Contact Me</button>
@@ -62,6 +62,9 @@ h1, h2
 .buttons
   margin-top: 30px
   margin-bottom: 30px
+  display: flex
+  align-items: left
+  justify-content: space-evenly
   .btn
     padding: 10px 20px 10px 20px
     margin-right: 5px
@@ -72,14 +75,22 @@ h1, h2
   .btn-primary
     background-color: #FFC8D9
     border: 1px solid #FDB0D5
+    &:hover
+      background-color: #FC4099
   .btn-secondary
     background-color: #FFFAD0
     border: 1px solid #FDF296
     color: black
-    margin-left: 95px
+    &:hover
+      color: white
+      background-color: #FBE73F
   .btn-tertiary
     background-color: #7EC1CC
     border: 1px solid #65CFE1
-    margin-left: 95px
+    &:hover
+      color: white
+      background-color: #25B6CD
+
+
 
 </style>

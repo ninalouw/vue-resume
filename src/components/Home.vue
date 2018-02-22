@@ -62,7 +62,9 @@ h1
 
 p
   max-width: 450px
-  font-size: 2rem
+  margin-top: 30px
+  margin-bottom: 30px
+  font-size: 1.2rem
   font-family: 'Anonymous Pro', monospace
 
 canvas

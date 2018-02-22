@@ -3,7 +3,7 @@
     <h1 class="text-center">{{ title }}</h1>
     <div class="row block-section">
       <div v-for="item in data"
-            class="block col-lg-6 col-md-6 col-sm-6 col-xs-12"
+            class="block col-lg-6 col-md-6 col-sm-12 col-xs-12"
             :key="item.id"
             >
         <img class="img-responsive" :src="getImgUrl(item.img)">
