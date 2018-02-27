@@ -1,7 +1,8 @@
 {
  "Home": {
    "title": "Nina Mae Louw",
-   "intro": "I am a full stack developer and designer. I am passionate about creating intuitive user experiences and have the skills to build them: from user research, prototyping,and usability testing to building and deploying full stack applications."
+   "intro": "I am a full stack developer and designer. I am passionate about creating intuitive user experiences and have the skills to build them: from user research, prototyping,and usability testing to building and deploying full stack applications.",
+   "video": "hero-video"
  },
   "About": {
     "section1": {

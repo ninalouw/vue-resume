@@ -20,8 +20,8 @@
             </span>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hero-video">
-          <canvas></canvas>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 video-cont">
+            <video class="hero-video" :src="getImgUrl(video)" type="video/mp4"  width="580" height="328" autoplay controls></video>
         </div>
       </div>
       <app-about></app-about>
@@ -35,7 +35,6 @@
 import Data from '../data/data.json';
 import About from './About';
 import Skills from './Skills';
-import Footer from './Footer';
 
 export default {
   name: 'Home',
@@ -43,12 +42,18 @@ export default {
     return {
       title: Data.Home.title,
       intro: Data.Home.intro,
+      video: Data.Home.video,
     };
   },
   components: {
     appAbout: About,
     appSkills: Skills,
-    appFooter: Footer,
+  },
+  methods: {
+    getImgUrl(name) {
+      const images = require.context('../assets/', false, /\.mp4$/);
+      return images('./' + name + '.mp4');
+    },
   },
 };
 </script>
@@ -66,11 +71,14 @@ p
   margin-bottom: 30px
   font-size: 1.2rem
   font-family: 'Anonymous Pro', monospace
-
-canvas
-  background-color: #FFC8D9
-  width: 480px
-  height: 430px
+.video-cont
+  padding-top: 70px
+.hero-video
+  width: 580px
+  height: 328px
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
 .contact
   display: flex
   justify-content: space-between

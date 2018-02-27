@@ -36,6 +36,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
+.container
+  margin-top: 140px
 h1, h2
   font-weight: bold
   font-family: 'Playfair Display', serif

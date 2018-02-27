@@ -36,7 +36,7 @@ export default {
     getImgUrl(name) {
       const images = require.context('../assets/', false, /\.jpg$/);
       return images('./' + name + '.jpg');
-    }
+    },
   },
 };
 </script>
