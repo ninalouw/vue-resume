@@ -8,6 +8,7 @@
            class="block col-lg-4 col-md-6 col-sm-12 col-xs-12">
         <div class="card" :width="item.width">
           <img class="card-img-top" :src="getImgUrl(item.img)" alt="Card image cap">
+           <!-- <video class="card-img-top hero-video" :src="getVideoUrl(item.img)" type="video/mov"  width="580" height="328" autoplay controls></video> -->
           <div class="card-block">
             <h4 class="card-title">{{item.title}}</h4>
             <p class="card-text">{{item.para}}</p>
@@ -37,6 +38,10 @@ export default {
       const images = require.context('../assets/', false, /\.jpg$/);
       return images('./' + name + '.jpg');
     },
+    getVideoUrl(name) {
+      const images = require.context('../assets/', false, /\.mp4$/);
+      return images('./' + name + '.mp4');
+    },
   },
 };
 </script>
@@ -61,6 +66,9 @@ h1, h2
   margin-bottom: 15px
   .card-img-top
     height: 400px
+  .hero-video
+    width: 580px
+    height: 328px
   .btn
     padding: 10px 20px 10px 20px
     margin-right: 5px

@@ -54,7 +54,7 @@
     "proj1": {
       "id":"1",
       "title": "Pooch Pals",
-      "img": "pooch-pals",
+      "img": "poochpals",
       "width": "40rem",
       "para": "My own business endeavour which allows Vancouverites to borrow local dogs for walks. I have designed and built the MVP using Rails and React, and am currently running user testing studies and marketing my product.",
       "url":"https://pooch-pals.herokuapp.com",
@@ -63,7 +63,7 @@
     "proj2": {
       "id":"2",
       "title": "Mealkit Prototype",
-      "img": "meal-kit",
+      "img": "meal-kit-1",
       "width": "20rem",
       "para": "An interactive prototype for a meal kit delivery company that focuses on simplifying weekly recipe choices and providing the user with delivery updates. The prototype displays the first two primary tasks decided on after doing user research, creating task models, and running usability tests. Created with Sketch and Invision.",
       "url":"https://invis.io/CBEEWZC47",
