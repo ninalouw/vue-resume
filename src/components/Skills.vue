@@ -15,9 +15,9 @@
     </div>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buttons">
-        <button href="https://github.com/ninalouw" class="btn btn-primary">View Github</button>
-        <button class="btn btn-secondary">Download Resume</button>
-        <button href="mailto:ninalouw@mac.com" class="btn btn-tertiary">Contact Me</button>
+        <a href="https://github.com/ninalouw" class="btn btn-primary">View Github</a>
+        <a class="btn btn-secondary">Download Resume</a>
+        <a href="mailto:ninalouw@mac.com" class="btn btn-tertiary">Contact Me</a>
       </div>
     </div>
   </div>
@@ -87,6 +87,7 @@ h1, h2
   .btn-tertiary
     background-color: #7EC1CC
     border: 1px solid #65CFE1
+    color: white
     &:hover
       color: white
       background-color: #25B6CD

@@ -26,6 +26,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
+@media (min-width: 768px)
+  flex-direction: column
+  align-items: left;
 p, a
   font-size: 1rem
 .footer
@@ -45,7 +48,4 @@ p, a
       &:hover
         cursor: pointer
         color: #F8B91
-@media (min-width: 768px)
-  flex-direction: column
-  align-items: left;
 </style>
