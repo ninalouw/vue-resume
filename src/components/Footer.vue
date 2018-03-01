@@ -26,9 +26,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
-@media (min-width: 768px)
-  flex-direction: column
-  align-items: left;
+@media (max-width: 768px)
+  .footer
+    flex-direction: column
+    align-items: left
+
 p, a
   font-size: 1rem
 .footer

@@ -80,4 +80,21 @@ h1, h2
     &:hover
       color: white
       background-color: #25B6CD
+@media (max-width: 568px)
+  .card
+  .card-mobile
+    width: 95%
+    margin: 10px
+
+    .card-img-top
+      width: 100%
+      height: 200px
+    .card-text
+      font-size: 0.8rem
+h3
+  font-size: 1.7rem
+p
+  font-size: 0.8rem
+.btn
+  font-size: 0.8rem
 </style>

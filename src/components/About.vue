@@ -53,4 +53,21 @@ h1, h2
   img
     width: 100px
     align-self: center
+@media (max-width: 568px)
+  h1
+    font-size: 2rem
+
+  h2
+    font-size: 1.5rem
+
+  h3
+    font-size: 1.2rem
+
+  h4
+    font-size: 1.2rem
+  p
+    font-size: 0.7rem
+  .block
+    img
+      width: 80px
 </style>

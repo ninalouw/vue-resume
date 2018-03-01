@@ -32,5 +32,4 @@ export default {
 .container
   margin-top: 60px
   margin-bottom: 60px
-
 </style>

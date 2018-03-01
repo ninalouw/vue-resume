@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 video-cont">
-            <video class="hero-video" :src="getImgUrl(video)" type="video/mp4"  width="580" height="328" autoplay controls></video>
+            <video class="hero-video" :src="getImgUrl(video)" type="video/mp4" autoplay controls></video>
         </div>
       </div>
       <app-about></app-about>
@@ -74,7 +74,7 @@ p
 .video-cont
   padding-top: 70px
 .hero-video
-  width: 580px
+  width: 100%
   height: 328px
   -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
   -moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
@@ -95,4 +95,33 @@ p
       &:hover
         cursor: pointer
         color: #FDB0D5
+
+@media (max-width: 568px)
+  .card
+    .card-img-top
+      width: 40%
+      height: 100%
+  .card-mobile
+    width: 95%
+    margin: 10px
+
+    .card-img-top
+      width: 100%
+      height: 200px
+    .card-text
+      font-size: 0.8rem
+
+  h1
+    font-size: 4rem
+
+  h2
+    font-size: 1.7rem
+
+  h3
+    font-size: 1.2rem
+
+  h4
+    font-size: 1.2rem
+  p
+    font-size: 0.9rem
 </style>

@@ -91,7 +91,26 @@ h1, h2
     &:hover
       color: white
       background-color: #25B6CD
+@media (max-width: 568px)
+  .buttons
+    flex-direction: column
+    align-items: center
+  h1
+    font-size: 2rem
 
+  h2
+    font-size: 1.5rem
 
+  h3
+    font-size: 1.2rem
 
+  h4
+    font-size: 1.2rem
+  p
+    font-size: 0.7rem
+  .block
+    i
+      font-size: 2rem
+    .svgs
+      margin: 15px
 </style>
