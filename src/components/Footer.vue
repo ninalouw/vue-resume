@@ -30,6 +30,8 @@ export default {
   .footer
     flex-direction: column
     align-items: left
+    span
+      font-size: 0.9rem
 
 p, a
   font-size: 1rem

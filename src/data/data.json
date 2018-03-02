@@ -56,7 +56,7 @@
       "title": "Pooch Pals",
       "img": "poochpals",
       "width": "40rem",
-      "para": "My own business endeavour which allows Vancouverites to borrow local dogs for walks. I have designed and built the MVP using Rails and React, and am currently running user testing studies and marketing my product.",
+      "para": "My own business endeavour which allows Vancouverites to borrow local dogs for walks. I have designed and built the minimum viable product using Rails, Vue.js, PostgreSql, Bootstrap and Heroku, and am currently doing more user research and marketing my product.",
       "url":"https://pooch-pals.herokuapp.com",
       "source_code":"https://github.com/ninalouw/rails-pals"
     },
