@@ -97,31 +97,17 @@ p
         color: #FDB0D5
 
 @media (max-width: 568px)
-  .card
-    .card-img-top
-      width: 40%
-      height: 100%
-  .card-mobile
-    width: 95%
-    margin: 10px
-
-    .card-img-top
-      width: 100%
-      height: 200px
-    .card-text
-      font-size: 0.8rem
-
   h1
-    font-size: 4rem
+    font-size: 3.8rem
 
   h2
-    font-size: 1.7rem
+    font-size: 1.3rem
 
   h3
-    font-size: 1.2rem
+    font-size: 1rem
 
   h4
-    font-size: 1.2rem
+    font-size: 1rem
   p
     font-size: 0.9rem
 </style>

@@ -99,13 +99,13 @@ h1, h2
     font-size: 2rem
 
   h2
-    font-size: 1.5rem
+    font-size: 1.3rem
 
   h3
-    font-size: 1.2rem
+    font-size: 1.1rem
 
   h4
-    font-size: 1.2rem
+    font-size: 1rem
   p
     font-size: 0.7rem
   .block
