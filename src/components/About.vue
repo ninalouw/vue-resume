@@ -28,7 +28,7 @@ export default {
   methods: {
     getImgUrl(name) {
       const images = require.context('../assets/', false, /\.svg$/);
-      return images('./' + name + '.svg');
+      return images(`./${name}.svg`);
     },
   },
 };

@@ -52,7 +52,7 @@ export default {
   methods: {
     getImgUrl(name) {
       const images = require.context('../assets/', false, /\.mp4$/);
-      return images('./' + name + '.mp4');
+      return images(`./${name}.mp4`);
     },
   },
 };

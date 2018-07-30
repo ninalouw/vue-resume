@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buttons">
         <a href="https://github.com/ninalouw" class="btn btn-primary">View Github</a>
-        <a class="btn btn-secondary">Download Resume</a>
+        <a :href="getPdfUrl('Nina_Louw_CV')" target="_blank" class="btn btn-secondary">Download Resume</a>
         <a href="mailto:ninalouw@mac.com" class="btn btn-tertiary">Contact Me</a>
       </div>
     </div>
@@ -33,6 +33,12 @@ export default {
       title: 'Skills & Approach',
       data: Data.Skills,
     };
+  },
+  methods: {
+    getPdfUrl(name) {
+      const pdf = require.context('../assets/', false, /\.pdf$/);
+      return pdf(`./${name}.pdf`);
+    },
   },
 };
 </script>
