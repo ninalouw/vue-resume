@@ -8,17 +8,17 @@
             aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-     <a class="navbar-brand" href="#">
+     <a class="navbar-brand" href="/#/">
       <img class="logo" src="../assets/logo.png" width="30" height="30" alt="logo">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" @click.prevent="scrollToSection('about')" href="">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" @click.prevent="scrollToSection('skills')" href="">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/#/work">Work</a>
@@ -35,6 +35,16 @@
 
 export default {
   name: 'Header',
+  updated() {
+    const elem = this.$el;
+    elem.scrollTop = elem.clientHeight;
+  },
+  methods: {
+    scrollToSection(id) {
+      const element = document.getElementById(`${id}`);
+      element.scrollIntoView();
+    },
+  },
 };
 </script>
 

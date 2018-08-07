@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="about">
     <h1 class="text-center">{{ title }}</h1>
     <div class="row block-section">
       <div v-for="item in data"
@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       data: Data.About,
-      title: 'My Journey',
+      title: 'About',
     };
   },
   methods: {

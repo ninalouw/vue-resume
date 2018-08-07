@@ -21,13 +21,13 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 video-cont">
-            <video class="hero-video" :src="getImgUrl(video)" type="video/mp4" autoplay controls></video>
+            <video class="hero-video" :src="getImgUrl(video)"
+                   type="video/mp4" autoplay controls></video>
         </div>
       </div>
       <app-about></app-about>
       <app-skills></app-skills>
     </div>
-    <app-footer></app-footer>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="skills">
     <h1 class="text-center">{{ title }}</h1>
 
     <div class="row block-section">
@@ -16,7 +16,8 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buttons">
         <a href="https://github.com/ninalouw" class="btn btn-primary">View Github</a>
-        <a :href="getPdfUrl('Nina_Louw_CV')" target="_blank" class="btn btn-secondary">Download Resume</a>
+        <a :href="getPdfUrl('Nina_Louw_Resume')"
+            target="_blank" class="btn btn-secondary">Download Resume</a>
         <a href="mailto:ninalouw@mac.com" class="btn btn-tertiary">Contact Me</a>
       </div>
     </div>
@@ -79,10 +80,10 @@ h1, h2
     &:hover
       cursor: pointer
   .btn-primary
-    background-color: #FFC8D9
-    border: 1px solid #FDB0D5
+    background-color: #7EC1CC
+    border: 1px solid #65CFE1
+    color: white
     &:hover
-      background-color: #FC4099
   .btn-secondary
     background-color: #FFFAD0
     border: 1px solid #FDF296
@@ -91,12 +92,12 @@ h1, h2
       color: white
       background-color: #FBE73F
   .btn-tertiary
-    background-color: #7EC1CC
-    border: 1px solid #65CFE1
     color: white
+    background-color: #25B6CD
+    background-color: #FFC8D9
+    border: 1px solid #FDB0D5
     &:hover
-      color: white
-      background-color: #25B6CD
+      background-color: #FC4099
 @media (max-width: 568px)
   .buttons
     flex-direction: column

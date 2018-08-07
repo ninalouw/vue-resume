@@ -15,13 +15,13 @@
       "id": "2",
       "img" : "laptop",
       "title": "Programming & Design",
-      "para": "My coding journey is a mixture of self-teaching online, Udacity’s Front-End Nanodegree, Codecore Web Developer Bootcamp and Web Design and Development at Vanarts. I now have experience with Ruby, Rails, Javascript, jQuery, HTML & CSS, relational databases and testing, and building full stack web apps.I have honed my full stack Javascript skills by learning React, Redux, Vue.js and Express.js. I have studied UX design and interface design principles, and have experience designing interactive prototypes and using the Adobe CC suite, Sketch and Invision."
+      "para": "My coding journey started with Udacity’s Nano degree, then Code Core Bootcamp and Web Design and Development at Van Arts. I have experience building full stack web apps with Ruby, Rails, Javascript, Vue.js, React, jQuery, HTML5 & CSS3, Postgres, and SQL. I have studied UX/UI and interface design principles, and have experience using the Adobe CC suite, Sketch and Invision."
     },
     "section3" : {
       "id": "3",
       "img": "dev",
       "title": "Full Stack developer",
-       "para": "I currently work as a full stack Ruby and Javascript developer - taking on responsibilities from upgrading our SASS to Bootstrap 4, improving our sign up flow and use of routing APIs, and testing with Selenium and Capybara - to redesigning internal UI interfaces."
+       "para": "I currently work as a full stack Ruby and Javascript developer at Fresh Prep - taking on responsibilities from upgrading to Bootstrap 4, improving our sign up flow and use of routing APIs, and testing with Selenium and Capybara - to redesigning internal UI interfaces."
     }
   },
   "Skills": {
@@ -41,7 +41,7 @@
       "id":"3",
       "title": "Front End",
       "icons": "devicon-javascript-plain",
-      "para": "I have experience with HTML5, CSS3, SASS, Javascript, jQuery, AJAX, React, Redux, Angular.js and Vue.js, testing with Jasmine, Mocha and Jest, and compiling builds with Grunt, Gulp and Webpack. I am interested in using front-end frameworks to create a more intuitive and reassuring experience for the user. I have recent experience redesigning sign up flows to create a simpler, frictionless sign up process."
+      "para": "I have experience with HTML5, CSS3, SASS, Javascript, jQuery, AJAX, React, Redux, Angular.js and Vue.js, testing with Jasmine, Mocha and Jest, and compiling builds with Grunt, Gulp and Webpack. I have recently migrated our web application from jQuery to use Vue.js in order to create a more intuitive and reassuring user experience and increase developer productivity."
     },
     "section4": {
       "id":"4",
