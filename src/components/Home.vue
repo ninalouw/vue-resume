@@ -110,4 +110,6 @@ p
     font-size: 1rem
   p
     font-size: 0.9rem
+  .video-cont
+    display: none
 </style>

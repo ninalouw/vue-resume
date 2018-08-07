@@ -15,10 +15,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" @click.prevent="scrollToSection('about')" href="">About</a>
+          <a class="nav-link" @click.prevent="scrollToSection('about')" href="/#/">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" @click.prevent="scrollToSection('skills')" href="">Skills</a>
+          <a class="nav-link" @click.prevent="scrollToSection('skills')" href="/#/">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/#/work">Work</a>
